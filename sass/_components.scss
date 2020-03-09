@@ -212,3 +212,43 @@
     }
 
 }
+
+///////////////////
+// HOTEL OVERVIEW
+
+.overview {
+
+    display: flex;
+    
+
+    &__heading {
+        color:blue;
+    }
+
+    &__stars {
+        margin-right: auto;
+    }
+
+    &__icon-star,
+    &__icon-location {
+        width: 1.75rem;
+        height: 1.75rem;
+        fill: var(--color-primary);
+    }
+
+    &__location {
+        color:blue;
+    }
+
+    &__rating {
+        color:blue;
+    }
+
+    &__rating-average {
+        color:blue;
+    }
+    
+    &__rating-count {
+        color:blue;
+    }
+}
